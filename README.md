@@ -17,7 +17,7 @@ This is a simple Python application to download YouTube videos with a graphical 
    git clone https://github.com/arshadkhalid/YT-downloader.git
    ```
 2.	**Install the required dependencies:**
-Make sure you have Python installed. Then install the following packages using pip:
+Make sure you have Python 3.x installed. Then install the following packages using pip:
    ```bash
  pip install tkinter
 pip install pytube
@@ -39,9 +39,8 @@ pip install requests
 ```bash
 youtube-video-downloader/
 │
-├── app.py                 # Main Python script
+├── yt-downloader.py       # Main Python script
 ├── README.md              # Project documentation
-├── requirements.txt       # Required libraries
 └── screenshot.png         # Screenshot of the app
 ```
 
@@ -57,7 +56,6 @@ youtube-video-downloader/
 
 	•	Add support for playlist downloads.
 	•	Add more resolution options.
-	•	Show download progress in the progress bar.
 
 ## License
 
