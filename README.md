@@ -40,8 +40,7 @@ pip install requests
 youtube-video-downloader/
 │
 ├── yt-downloader.py       # Main Python script
-├── README.md              # Project documentation
-└── screenshot.png         # Screenshot of the app
+└── README.md              # Project documentation
 ```
 
 ## Dependencies
