@@ -66,7 +66,7 @@ Button(root, text="Browse", command=browse_directory, bg="#313131", fg="black").
 Label(root, text='File Name:', font='arial 13 bold', bg="#313131").place(x=50, y=140)
 Entry(root, width=50, textvariable=filename).place(x=180, y=145)
 
-# Video Resolution Option
+# Video Resolution Options
 Label(root, text='Resolution:', font='arial 13 bold', bg="#313131").place(x=50, y=180)
 resolution_var = StringVar(value="720p")
 resolution_options = ["1080p", "720p", "480p", "360p"]
