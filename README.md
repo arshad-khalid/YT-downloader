@@ -18,6 +18,42 @@ This is a simple Python application to download YouTube videos with a graphical 
    ```
 2.	**Install the required dependencies:**
 Make sure you have Python installed. Then install the following packages using pip:
-```bash
+   ```bash
    pip install tkinter pytube pillow requests
-```
+   ```
+## How to Use
+1.	Run the Python script:
+   ```bash
+   python yt_downloader.py
+   ```
+2.	Paste the YouTube video link into the provided field.
+3.	Choose the desired resolution, save location, and file name (optional).
+4.	Click Fetch Thumbnail to preview the video thumbnail.
+5.	Once the thumbnail is fetched, the Download button will be enabled.
+6.	Click Download to start downloading the video.
+
+## Project Structure
+youtube_downloader/
+│
+├── yt_downloader.py        # Main Python script for the downloader
+└── README.md               # Documentation
+
+## Dependencies
+
+	•	**tkinter:** For creating the GUI.
+	•	**pytube: For downloading YouTube videos.
+	•	**Pillow: For handling image processing (e.g., fetching thumbnails).
+	•	**requests: For making HTTP requests to fetch the video thumbnail.
+	•	**threading: For handling downloads in a separate thread to keep the UI responsive.
+
+## Future Improvements
+
+	•	Add support for playlist downloads.
+	•	Add more resolution options.
+	•	Show download progress in the progress bar.
+
+## License
+
+This project is licensed under the MIT License.
+
+Happy downloading! 😎
