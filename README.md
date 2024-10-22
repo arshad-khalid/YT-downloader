@@ -20,5 +20,4 @@ This is a simple Python application to download YouTube videos with a graphical 
 Make sure you have Python installed. Then install the following packages using pip:
 
    ```bash
-   pip install tkinter pytube pillow requests
-
+      pip install tkinter pytube pillow requests
