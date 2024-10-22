@@ -7,7 +7,6 @@ This is a simple Python application to download YouTube videos with a graphical 
 - Allows you to choose the resolution of the video (1080p, 720p, 480p, 360p).
 - Choose the file name and save location.
 - Provides a progress bar to track download progress.
-- Multi-threaded to prevent freezing during downloads.
 
 ## Installation
 
@@ -27,7 +26,7 @@ pip install requests
 ## How to Use
 1.	Run the Python script:
    ```bash
-   python yt_downloader.py
+   python yt-downloader.py
    ```
 2.	Paste the YouTube video link into the provided field.
 3.	Choose the desired resolution, save location, and file name (optional).
@@ -37,7 +36,7 @@ pip install requests
 
 ## Project Structure
 ```bash
-youtube-video-downloader/
+YT-downloader/
 │
 ├── yt-downloader.py       # Main Python script
 └── README.md              # Project documentation
@@ -55,6 +54,8 @@ youtube-video-downloader/
 
 	•	Add support for playlist downloads.
 	•	Add more resolution options.
+	•	Handling multiple downloads.
+ 	•	Multi-threading to avoid freezing.
 
 ## License
 
